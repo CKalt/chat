@@ -1,0 +1,17 @@
+{
+  "projectName": "amplifynextjschatapp",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist/amplifynextjschatapp",
+      "BuildCommand": "npx next build",
+      "StartCommand": "npx aws-cdk deploy --outputs-file ./cdk-outputs.json --app \"npm start\""
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
