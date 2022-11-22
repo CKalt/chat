@@ -37,17 +37,6 @@ export const createRoom = /* GraphQL */ `
       id
       name
       messages {
-        items {
-          id
-          content {
-            text
-            imageId
-          }
-          owner
-          createdAt
-          updatedAt
-          roomId
-        }
         nextToken
       }
       createdAt
